@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omnodia</title>
+<meta name="description" content="Omnodia Ltd — technology consulting in AI, networks and intelligent systems. London, United Kingdom.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='26' fill='none' stroke='%234a7cf6' stroke-width='7'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%234a7cf6'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #fcfcfa;
+    --ink: #17191e;
+    --muted: #5c616b;
+    --accent: #2f5fe0;
+    --rule: #e3e2dd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101217;
+      --ink: #eceae6;
+      --muted: #9aa0ab;
+      --accent: #7a9bff;
+      --rule: #272a31;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 17px/1.65 "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 96px 24px 64px;
+  }
+  .mark {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+  .mark svg { width: 34px; height: 34px; flex: none; }
+  .mark span {
+    font-size: 15px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  h1 {
+    font-size: clamp(28px, 5.5vw, 40px);
+    line-height: 1.22;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    max-width: 16em;
+  }
+  h1 em {
+    font-style: normal;
+    color: var(--accent);
+  }
+  .sub {
+    margin-top: 22px;
+    color: var(--muted);
+    max-width: 34em;
+  }
+  .contact {
+    margin-top: 44px;
+    padding-top: 28px;
+    border-top: 1px solid var(--rule);
+    font-size: 16px;
+  }
+  .contact a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .contact a:hover { border-bottom-color: var(--accent); }
+  footer {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px 40px;
+    color: var(--muted);
+    font-size: 12.5px;
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">
+    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="32" cy="32" r="26" fill="none" stroke="var(--accent)" stroke-width="7"/>
+      <circle cx="32" cy="32" r="6" fill="var(--accent)"/>
+    </svg>
+    <span>Omnodia</span>
+  </div>
+  <h1>Technology consulting in <em>AI, networks and intelligent systems</em>.</h1>
+  <p class="sub">Algorithm design and applied research — machine learning, intelligent scheduling, edge computing and next-generation wireless. Based in the UK, working with clients worldwide. Full services launching in 2027.</p>
+  <p class="contact">Enquiries — <a href="mailto:huijun.tang@omnodia.co.uk">huijun.tang@omnodia.co.uk</a></p>
+</main>
+<footer>
+  Omnodia Ltd is registered in England &amp; Wales, company no.&nbsp;17549826.<br>
+  Registered office: 4th Floor, 18 St.&nbsp;Cross Street, London EC1N&nbsp;8UN, United Kingdom.
+</footer>
+</body>
+</html>
